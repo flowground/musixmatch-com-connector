@@ -1,0 +1,63 @@
+{
+    "type": "object",
+    "properties": {
+        "format": {
+            "required": false,
+            "type": "string",
+            "default": "json"
+        },
+        "callback": {
+            "required": false,
+            "type": "string"
+        },
+        "q_track": {
+            "required": false,
+            "type": "string"
+        },
+        "q_artist": {
+            "required": false,
+            "type": "string"
+        },
+        "q_lyrics": {
+            "required": false,
+            "type": "string"
+        },
+        "f_artist_id": {
+            "required": false,
+            "type": "number"
+        },
+        "f_music_genre_id": {
+            "required": false,
+            "type": "number"
+        },
+        "f_lyrics_language": {
+            "required": false,
+            "type": "number"
+        },
+        "f_has_lyrics": {
+            "required": false,
+            "type": "number"
+        },
+        "s_artist_rating": {
+            "required": false,
+            "type": "string"
+        },
+        "s_track_rating": {
+            "required": false,
+            "type": "string"
+        },
+        "quorum_factor": {
+            "required": false,
+            "type": "number",
+            "default": 1
+        },
+        "page_size": {
+            "required": false,
+            "type": "number"
+        },
+        "page": {
+            "required": false,
+            "type": "number"
+        }
+    }
+}

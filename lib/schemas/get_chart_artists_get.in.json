@@ -1,0 +1,27 @@
+{
+    "type": "object",
+    "properties": {
+        "format": {
+            "required": false,
+            "type": "string",
+            "default": "json"
+        },
+        "callback": {
+            "required": false,
+            "type": "string"
+        },
+        "page": {
+            "required": false,
+            "type": "number"
+        },
+        "page_size": {
+            "required": false,
+            "type": "number"
+        },
+        "country": {
+            "required": false,
+            "type": "string",
+            "default": "us"
+        }
+    }
+}

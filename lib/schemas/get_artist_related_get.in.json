@@ -1,0 +1,26 @@
+{
+    "type": "object",
+    "properties": {
+        "format": {
+            "required": false,
+            "type": "string",
+            "default": "json"
+        },
+        "callback": {
+            "required": false,
+            "type": "string"
+        },
+        "artist_id": {
+            "required": true,
+            "type": "string"
+        },
+        "page_size": {
+            "required": false,
+            "type": "number"
+        },
+        "page": {
+            "required": false,
+            "type": "number"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "type": "object",
+    "properties": {
+        "format": {
+            "required": false,
+            "type": "string",
+            "default": "json"
+        },
+        "callback": {
+            "required": false,
+            "type": "string"
+        },
+        "q_artist": {
+            "required": false,
+            "type": "string"
+        },
+        "q_track": {
+            "required": false,
+            "type": "string"
+        },
+        "f_has_lyrics": {
+            "required": false,
+            "type": "number"
+        },
+        "f_has_subtitle": {
+            "required": false,
+            "type": "number"
+        }
+    }
+}

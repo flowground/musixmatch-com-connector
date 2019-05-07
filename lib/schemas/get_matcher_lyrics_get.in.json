@@ -1,0 +1,22 @@
+{
+    "type": "object",
+    "properties": {
+        "format": {
+            "required": false,
+            "type": "string",
+            "default": "json"
+        },
+        "callback": {
+            "required": false,
+            "type": "string"
+        },
+        "q_track": {
+            "required": false,
+            "type": "string"
+        },
+        "q_artist": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}
